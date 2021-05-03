@@ -1,0 +1,39 @@
+.foot__preview {
+    background-color: $dark;
+    margin: 109px 0 0 0 ;
+
+    &--list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 104px 0 104px 0 ; 
+    }
+    
+    &--item {
+        width: 360px;
+        text-align: center;
+        color: white;
+    }
+    
+    &--item-title {
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+    
+        margin: 0 0 16px 0 ;
+    }
+    
+    &--item-subtitle {
+        font-family: Lato;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        color: $soft-light-gray;
+    }
+    
+    &--item-ico {
+        margin: 0 0 28px 0;
+    }
+}
+

@@ -16,67 +16,80 @@
     <div class="container">
         <div class="header__wrapper">
             <div class="header__controls">
-                <a href="index.html"><img class="header__logo" src="./img/logo.svg" alt="logo" width="44"
-                        height="38"></a>
+                <img class="header__logo" src="./img/logo.svg" alt="logo" width="44" height="38">
                 <img src="./img/loupe.svg" alt="loupe" width="26" height="27">
             </div>
             <div class="header__controls">
-                <button class="header__button"><img src="./img/burger.svg" alt="menu" width="32" height="23"></button>
+                <button class="header__button"><img class="header__button-target" src="./img/burger.svg" alt="menu"
+                        width="32" height="23"></button>
                 <a class="header__person-link" href="#"><img src="./img/user.svg" alt="user" width="29" height="29"></a>
                 <a href="#"><img src="./img/cart.svg" alt="cart" width="32" height="29"></a>
             </div>
         </div>
     </div>
     <nav class="header__navigation">
-        <h2>menu</h2>
-        <ul>
-            <li>
-                <a href="#">man</a>
+        <h2 class="header__navigation-title">menu</h2>
+        <button class="header__navigation-button"><img src=".//img/nav_x.svg" alt="close_menu"></button>
+        <ul class="header__navigation-list">
+            <li class="header__navigation-list--parent">
+                <a class="header__list-parent--title" href="#">man</a>
             </li>
             <ul>
-                <li>
-                    <a href="#">Accessories</a>
+                <li class="header__list-parent--li">
+                    <a class="header__list-parent--subtitle" href="#">Accessories</a>
                 </li>
-                <li>
-                    <a href="#">Bags</a>
+                <li class="header__list-parent--li">
+                    <a class="header__list-parent--subtitle" href="#">Bags</a>
                 </li>
-                <li>
-                    <a href="#">Denim</a>
+                <li class="header__list-parent--li">
+                    <a class="header__list-parent--subtitle" href="#">Denim</a>
                 </li>
-                <li>
-                    <a href="#">T-Shirts</a>
+                <li class="header__list-parent--li">
+                    <a class="header__list-parent--subtitle" href="#">T-Shirts</a>
                 </li>
             </ul>
-            <li>
-                <a href="#">woman</a>
+            <li class="header__navigation-list--parent">
+                <a class="header__list-parent--title" href="#">woman</a>
             </li>
             <ul>
-                <li>
-                    <a href="#">Accessories</a>
+                <li class="header__list-parent--li">
+                    <a class="header__list-parent--subtitle" href="#">Accessories</a>
                 </li>
-                <li>
-                    <a href="#">Jackets & Coats</a>
+                <li class="header__list-parent--li">
+                    <a class="header__list-parent--subtitle" href="#">Jackets & Coats</a>
                 </li>
-                <li>
-                    <a href="#">Polos</a>
+                <li class="header__list-parent--li">
+                    <a class="header__list-parent--subtitle" href="#">Polos</a>
                 </li>
-                <li>
-                    <a href="#">T-Shirts</a>
+                <li class="header__list-parent--li">
+                    <a class="header__list-parent--subtitle" href="#">T-Shirts</a>
                 </li>
-                <li>
-                    <a href="#">Shirts</a>
+                <li class="header__list-parent--li">
+                    <a class="header__list-parent--subtitle" href="#">Shirts</a>
                 </li>
             </ul>
-            <li>
-                <a href="#">kids</a>
+            <li class="header__navigation-list--parent">
+                <a class="header__list-parent--title" href="#">kids</a>
             </li>
             <ul>
-                <li><a href="#">Accessories</a></li>
-                <li><a href="#">Jackets & Coats</a></li>
-                <li><a href="#">Polos</a></li>
-                <li><a href="#">T-Shirts</a></li>
-                <li><a href="#">Shirts</a></li>
-                <li><a href="#">Bags</a></li>
+                <li class="header__list-parent--li">
+                    <a class="header__list-parent--subtitle" href="#">Accessories</a>
+                </li>
+                <li class="header__list-parent--li">
+                    <a class="header__list-parent--subtitle" href="#">Jackets & Coats</a>
+                </li>
+                <li class="header__list-parent--li">
+                    <a class="header__list-parent--subtitle" href="#">Polos</a>
+                </li>
+                <li class="header__list-parent--li">
+                    <a class="header__list-parent--subtitle" href="#">T-Shirts</a>
+                </li>
+                <li class="header__list-parent--li">
+                    <a class="header__list-parent--subtitle" href="#">Shirts</a>
+                </li>
+                <li class="header__list-parent--li">
+                    <a class="header__list-parent--subtitle" href="#">Bags</a>
+                </li>
             </ul>
         </ul>
     </nav>
@@ -155,9 +168,9 @@
             <div class="footer__subscribe">
                 <h2 class="footer__subscribe--title">SUBSCRIBE</h2>
                 <p class="footer__subscribe--subtitle">FOR OUR NEWLETTER AND PROMOTION</p>
-                <div class="subscribe__content">
-                    <input class="subscribe__content--input" type="text" placeholder="Enter Your Email">
-                    <button class="subscribe__content--button" type="button">Subscribe</button>
+                <div class="footer__subscribe-content">
+                    <input class="footer__subscribe-content--input" type="text" placeholder="Enter Your Email">
+                    <button class="footer__subscribe-content--button" type="button">Subscribe</button>
                 </div>
             </div>
         </div>
@@ -176,8 +189,7 @@
     </section>
 </footer>
 
-<body>
-
-</body>
+<script src="./app.js"></script>
+</footer>
 
 </html>
