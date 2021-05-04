@@ -1,0 +1,14 @@
+.footer {
+    background: $dark;
+    display: flex;
+    justify-content: space-around;
+
+    &__copyright {
+        color: white;
+        margin: 30px 0 30px 0 ;
+    }
+    
+    &__media {
+        margin: 30px 0 30px 0 ;
+    }
+}

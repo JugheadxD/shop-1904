@@ -21,8 +21,8 @@
                     <img src="./img/loupe.svg" alt="loupe" width="26" height="27">
                 </div>
                 <div class="header__controls">
-                    <button class="header__button"><img src="./img/burger.svg" alt="menu" width="32"
-                            height="23"></button>
+                    <button class="header__button"><img class="header__button-target" src="./img/burger.svg" alt="menu"
+                            width="32" height="23"></button>
                     <a class="header__person-link" href="#"><img src="./img/user.svg" alt="user" width="29"
                             height="29"></a>
                     <a href="#"><img src="./img/cart.svg" alt="cart" width="32" height="29"></a>
@@ -30,55 +30,68 @@
             </div>
         </div>
         <nav class="header__navigation">
-            <h2>menu</h2>
-            <ul>
-                <li>
-                    <a href="#">man</a>
+            <h2 class="header__navigation-title">menu</h2>
+            <button class="header__navigation-button"><img src=".//img/nav_x.svg" alt="close_menu"></button>
+            <ul class="header__navigation-list">
+                <li class="header__navigation-list--parent">
+                    <a class="header__list-parent--title" href="#">man</a>
                 </li>
                 <ul>
-                    <li>
-                        <a href="#">Accessories</a>
+                    <li class="header__list-parent--li">
+                        <a class="header__list-parent--subtitle" href="#">Accessories</a>
                     </li>
-                    <li>
-                        <a href="#">Bags</a>
+                    <li class="header__list-parent--li">
+                        <a class="header__list-parent--subtitle" href="#">Bags</a>
                     </li>
-                    <li>
-                        <a href="#">Denim</a>
+                    <li class="header__list-parent--li">
+                        <a class="header__list-parent--subtitle" href="#">Denim</a>
                     </li>
-                    <li>
-                        <a href="#">T-Shirts</a>
+                    <li class="header__list-parent--li">
+                        <a class="header__list-parent--subtitle" href="#">T-Shirts</a>
                     </li>
                 </ul>
-                <li>
-                    <a href="#">woman</a>
+                <li class="header__navigation-list--parent">
+                    <a class="header__list-parent--title" href="#">woman</a>
                 </li>
                 <ul>
-                    <li>
-                        <a href="#">Accessories</a>
+                    <li class="header__list-parent--li">
+                        <a class="header__list-parent--subtitle" href="#">Accessories</a>
                     </li>
-                    <li>
-                        <a href="#">Jackets & Coats</a>
+                    <li class="header__list-parent--li">
+                        <a class="header__list-parent--subtitle" href="#">Jackets & Coats</a>
                     </li>
-                    <li>
-                        <a href="#">Polos</a>
+                    <li class="header__list-parent--li">
+                        <a class="header__list-parent--subtitle" href="#">Polos</a>
                     </li>
-                    <li>
-                        <a href="#">T-Shirts</a>
+                    <li class="header__list-parent--li">
+                        <a class="header__list-parent--subtitle" href="#">T-Shirts</a>
                     </li>
-                    <li>
-                        <a href="#">Shirts</a>
+                    <li class="header__list-parent--li">
+                        <a class="header__list-parent--subtitle" href="#">Shirts</a>
                     </li>
                 </ul>
-                <li>
-                    <a href="#">kids</a>
+                <li class="header__navigation-list--parent">
+                    <a class="header__list-parent--title" href="#">kids</a>
                 </li>
                 <ul>
-                    <li><a href="#">Accessories</a></li>
-                    <li><a href="#">Jackets & Coats</a></li>
-                    <li><a href="#">Polos</a></li>
-                    <li><a href="#">T-Shirts</a></li>
-                    <li><a href="#">Shirts</a></li>
-                    <li><a href="#">Bags</a></li>
+                    <li class="header__list-parent--li">
+                        <a class="header__list-parent--subtitle" href="#">Accessories</a>
+                    </li>
+                    <li class="header__list-parent--li">
+                        <a class="header__list-parent--subtitle" href="#">Jackets & Coats</a>
+                    </li>
+                    <li class="header__list-parent--li">
+                        <a class="header__list-parent--subtitle" href="#">Polos</a>
+                    </li>
+                    <li class="header__list-parent--li">
+                        <a class="header__list-parent--subtitle" href="#">T-Shirts</a>
+                    </li>
+                    <li class="header__list-parent--li">
+                        <a class="header__list-parent--subtitle" href="#">Shirts</a>
+                    </li>
+                    <li class="header__list-parent--li">
+                        <a class="header__list-parent--subtitle" href="#">Bags</a>
+                    </li>
                 </ul>
             </ul>
         </nav>
@@ -98,20 +111,28 @@
             <h2 class="visually-hidden">stocks</h2>
             <ul class="offers__list">
                 <li class="offers__item offers__item--woman">
-                    <p>30% off</p>
-                    <h3>for women</h3>
+                    <p class="offers__item-title">30% off</p>
+                    <span>
+                        <h3 class="offers__item-subtitle">for women</h3>
+                    </span>
                 </li>
                 <li class="offers__item offers__item--man">
-                    <p>hot deal</p>
-                    <h3>for men</h3>
+                    <p class="offers__item-title">hot deal</p>
+                    <span>
+                        <h3 class="offers__item-subtitle">for men</h3>
+                    </span>
                 </li>
                 <li class="offers__item offers__item--kids">
-                    <p>new arrivals</p>
-                    <h3>for kids</h3>
+                    <p class="offers__item-title">new arrivals</p>
+                    <span>
+                        <h3 class="offers__item-subtitle">for kids</h3>
+                    </span>
                 </li>
                 <li class="offers__item offers__item--accesories">
-                    <p>luxirous & trendy</p>
-                    <h3>accessories</h3>
+                    <p class="offers__item-title">luxirous & trendy</p>
+                    <span>
+                        <h3 class="offers__item-subtitle">accessories</h3>
+                    </span>
                 </li>
             </ul>
         </section>
@@ -123,17 +144,20 @@
             </div>
             <ul class="products">
                 <li class="products__item">
-                    <img src="./img/man_2.jpg" alt="man_2" width="360" height="420">
+                    <div class="products__add-to--cart">
+                        <button class="visually-hidden products__add-to-cart--button" type="button"><img
+                                src="./img/add_to_the_cart.png" alt="add_to_the_cart">Add to
+                            Cart</button>
+                    </div>
+                    <img class="img" src="./img/man_2.jpg" alt="man_2" width="360" height="420">
                     <div>
                         <h3 class="products__item--title">ellery x m'o capsule</h3>
                         <p class="products__item--subtitle">Known for her sculptural takes on traditional tailoring,
                             Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</p>
                         <p class="products__item--price">$52.00</p>
                     </div>
-                    <button class="visually-hidden type=" button"><img src="./img/add_to_the_cart.png"
-                            alt="add_to_the_cart">Add to
-                        Cart</button>
                 </li>
+                <!-- class="visually-hidden" -->
                 <li class="products__item">
                     <img src="./img/woman_2.jpg" alt="woman_2" width="360" height="420">
                     <div class="products__item--text products__item--text-bgcolor">
@@ -240,9 +264,9 @@
                 <div class="footer__subscribe">
                     <h2 class="footer__subscribe--title">SUBSCRIBE</h2>
                     <p class="footer__subscribe--subtitle">FOR OUR NEWLETTER AND PROMOTION</p>
-                    <div class="subscribe__content">
-                        <input class="subscribe__content--input" type="text" placeholder="Enter Your Email">
-                        <button class="subscribe__content--button" type="button">Subscribe</button>
+                    <div class="footer__subscribe-content">
+                        <input class="footer__subscribe-content--input" type="text" placeholder="Enter Your Email">
+                        <button class="footer__subscribe-content--button" type="button">Subscribe</button>
                     </div>
                 </div>
             </div>
@@ -260,6 +284,8 @@
             </div>
         </section>
     </footer>
+
+    <script src="./app.js"></script>
 </body>
 
 </html>

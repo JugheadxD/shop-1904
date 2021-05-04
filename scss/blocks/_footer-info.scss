@@ -1,0 +1,89 @@
+.footer__info {
+    background: url(../img/subscribe_background.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 448px;
+    background-size: cover;
+
+    .footer__info-con {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .footer__woman--info {
+        margin: 87px 0 0 0;
+    
+    }
+    
+    .footer__woman--item {
+        margin: 0 0 35px 125px;
+        display: flex;
+        flex-direction: column;
+        align-self: center;
+    }
+    
+    .footer__woman--title {
+        width: 360px;
+    
+    
+        font-size: 20px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+    }
+    
+    .footer__subscribe {
+        text-align: center
+    }
+    
+    .footer__subscribe--title {
+        margin: 150px 0 0 0;
+        font-size: 24px;
+        font-weight: 700;
+    }
+    
+    .footer__subscribe--subtitle {
+        font-family: Lato;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin: 0 0 30px 0;
+    
+    }
+    
+    .footer__subscribe-content--input {
+        border: none;
+        background: $some-gray-shit;
+    
+        padding: 15px;
+        width: auto;
+    
+        -webkit-border-top-left-radius: 50px;
+        -webkit-border-bottom-left-radius: 50px;
+        -moz-border-radius-topleft: 50px;
+        -moz-border-radius-bottomleft: 50px;
+        border-top-left-radius: 50px;
+        border-bottom-left-radius: 50px;
+    }
+    
+    .footer__subscribe-content--button {
+        padding: 15px;
+        width: auto;
+        background: $dark-pink;
+        border: none;
+        color: white;
+        
+        cursor: pointer;
+
+        -webkit-border-top-right-radius: 50px;
+        -webkit-border-bottom-right-radius: 50px;
+        -moz-border-radius-topright: 50px;
+        -moz-border-radius-bottomright: 50px;
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+}
