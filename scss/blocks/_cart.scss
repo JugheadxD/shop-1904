@@ -1,0 +1,174 @@
+.cart {
+
+    &__jc {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__heading {
+        background-color: #F8F3F4;
+        height: 148px;
+
+        &-title {
+            padding: 59px 0 0 0;
+            color: $dark-pink;
+        
+            font-family: Lato;
+            font-size: 24px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 29px;
+            letter-spacing: 0em;
+            text-align: left;
+        
+        }
+    }
+
+    &__products {
+        margin: 95px 0 0 0;
+    
+        &-item {
+            display: flex;
+            position: relative;
+            -webkit-box-shadow: 8px 6px 14px 4px rgba(0,0,0,0.31); 
+            box-shadow: 8px 6px 14px 4px rgba(0,0,0,0.31);
+            width: 750px;
+            margin: 0 0 50px 0 ;
+
+            &--title {
+                font-size: 24px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 29px;
+            
+                margin: 22px 57px 42px 31px;
+            }
+
+            &--subtitle {
+                margin: 0 0 10px 31px;
+                font-size: 22px;
+                font-weight: 400;
+                line-height: 26px;
+
+
+                &_dp {
+                    color: $dark-pink;
+                }
+                
+            }
+
+            &--quantity {
+                display: flex;
+            }
+
+            &--input {
+                margin: 0 0 0 24px;
+            }
+        }
+    }
+
+    &__products-button {
+        background: transparent;
+        border: 1px solid black;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 17px;
+        padding: 17px 41px 16px 39px;
+        cursor: pointer;
+
+        &--margin {
+            margin: 50px 270px 128px 0;
+        }
+    }
+
+    &__send {
+        margin: 110px 0 0 130px;
+        width: 450px;
+
+        &-title {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 19px;
+            margin: 0 0 20px;
+        }
+
+        &-input {
+            padding: 13px 277px 16px 17px;
+            margin: 0 0 22px 0;
+        }
+
+        &-button {
+            background: transparent;
+            border: 1px solid black;
+        
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 17px;
+        
+            padding: 9px 14px 12px 15px;
+            cursor: pointer;
+            margin: 0 0 57px 0;
+        }
+
+        &-checkout {
+            background: #F5F3F3;
+
+            &--items {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            &--subtotal {
+                font-size: 11px;
+                font-weight: 400;
+                line-height: 13px;
+                display: flex;
+                justify-content: flex-end;
+                margin: 39px 34px 12px 0;
+            }
+
+            &--total {
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 19px;
+                
+                display: flex;
+                justify-content: flex-end;
+                margin: 0 37px 0 0;
+
+                &_dp {
+                    color: $dark-pink;
+                }
+            }
+            &--button {
+                background: $dark-pink;
+                border: none;
+                font-size: 16px;
+                font-weight: 300;
+                line-height: 19px;
+            
+                color: white;
+                padding: 15px 43px 16px 41px;
+                margin: 17px 43px 42px 44px;
+                cursor: pointer;
+                align-self: center;
+                width: 350px;
+            }
+        }
+    }
+}
+
+.cart__product-item--close {
+    display: flex;
+    align-self: flex-end;
+    position: absolute;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin: 28px 22px 350px 440px;
+}
+
+hr {
+    margin: 21px 0 17px 0;
+    align-self: center;
+}
