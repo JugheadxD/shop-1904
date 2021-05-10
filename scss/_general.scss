@@ -7,7 +7,7 @@ body {
 }
 
 .container {
-    width: 1140px;
+    width: 71%;
     margin: 0 auto;
 }
 
@@ -24,4 +24,19 @@ body {
 
 input::-webkit-input-placeholder{  
     color: #B1B1B1;
+}
+
+
+
+@media (max-width: $max-tablet-width) {
+    .container {
+        width: 96%;
+    }
+}
+
+
+@media (max-width: $max-mobile-width) {
+    .container {
+        width: 92%;
+    }
 }

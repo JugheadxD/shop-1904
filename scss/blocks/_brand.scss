@@ -2,6 +2,13 @@
     display: flex;
     margin: 0 0 63px;
 
+
+    &__index-man  {
+        width: 50%;
+        height: auto;
+    }
+
+
     &__title {
         font-size: 48px;
         font-weight: 900;
@@ -27,8 +34,11 @@
         flex-grow: 1;
         display: flex;
         align-items: center;
-    }
 
+        @include mobile {
+        height: 500px;
+    }
+    }
     &__subtitle {
         display: block;
     
@@ -39,5 +49,13 @@
     
     &__subtitle--pink {
         color: $dark-pink;
+    }
+}
+
+@media (max-width: $max-mobile-width) {
+    .brand {
+        &__index-man {
+            display: none;
+        }
     }
 }
